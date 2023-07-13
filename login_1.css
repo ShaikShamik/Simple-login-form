@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #84ccbc;
+}
+.login-form{
+    max-width: 480px;
+    padding: 50px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #c8ded0;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+.name input{
+    height: 40px;
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.password input{
+    height: 40px;
+    display: flex;
+    width: 100%;
+    padding-left: 5px;
+    margin-top: 20px;
+}
+.button button{
+    height: 40px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 8px;
+    background-color: #3c6152;
+    font-size: 300;
+    font-weight: 700;
+}
+.Forgot-your-password {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Forgot-your-password a{
+    text-decoration: none;
+}
+.Forgot-your-password a:hover{
+    text-decoration: underline black;
+}
+.dont-have-an-account{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.dont-have-an-account a{
+    margin-left: 3px;
+    text-decoration: none;
+}
+.dont-have-an-account a:hover{
+    text-decoration: underline black;
+}
